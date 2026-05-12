@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_systolic_array_conv1d_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_systolic_array_conv1d" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="306.001 ns"></ZoomEndTime>
+      <Cursor1Time time="305.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="533"></NameColumnWidth>
+      <ValueColumnWidth column_width="259"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_systolic_array_conv1d/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/x_in" type="array">
+      <obj_property name="ElementShortName">x_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/w" type="array">
+      <obj_property name="ElementShortName">w[0:2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">w[0:2][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/y_in" type="array">
+      <obj_property name="ElementShortName">y_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/y_out" type="array">
+      <obj_property name="ElementShortName">y_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/stream1" type="array">
+      <obj_property name="ElementShortName">stream1[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">stream1[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/stream2" type="array">
+      <obj_property name="ElementShortName">stream2[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">stream2[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/dut/x_bus" type="array">
+      <obj_property name="ElementShortName">x_bus[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">x_bus[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_array_conv1d/dut/y_bus" type="array">
+      <obj_property name="ElementShortName">y_bus[0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_bus[0:3][31:0]</obj_property>
+   </wvobject>
+</wave_config>
